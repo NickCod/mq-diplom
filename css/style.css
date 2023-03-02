@@ -82,10 +82,143 @@ text-decoration: underline;
   text-align: center;
   line-height: 1.6;
 }
+.trends {
+  margin-top:63px;
+  width:100%;
+  min-height:379px;
+}
+.trend-title {
+  font-family: OpenSansB;
+  font-size:20px;
+  text-align:center;
+}
+.trend-title::after {
+  content: "";
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 67px;
+  height: 3px;
+  background: #e1d9bd;
+}
+.trend-items{
+  display:flex;
+  margin-top:28px;
+  justify-content: center;
+}
+.trend-unit{
+  display:flex;
+  min-height: 319px;
+  margin: 0px 4px 0px 4px;
+  background:#606260 ;
+  position: relative;
+  z-index: 0;
+  align-items: end;
+}
+.trend-unit:nth-child(1) {
+  margin-left:0px;
+}
+.trend-unit:nth-last-child(1){
+  margin-right:0px;
+}
+.trend-unit-1{
+  background-image:url(../images/trend1.jpg);
+  width: 400px;
+  display:flex;
+  justify-content:center;
+  align-items:end;
+}
+.unit-filling {
+  display:flex;
+  border: 3px solid #7c6f41;
+  width:360px;
+  height:150px;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 17px;
+  margin: 0px 20px 15px 20px;
+}
+.unit-filling-second{
+height: 163px;
+}
+.unit-category-2{
+  margin-left:20px;
+}
+.unit-category{
+  font-family: OpenSansB;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  color:#b59f5b;
+}
+.unit-title{
+  display: flex;
+  font-family:OpenSansB;
+  color:white;
+  font-size:20px;
+  text-transform: uppercase;
+  width:250px;
+  margin-right:20px;
+}
+.unit-title-second{
+width:auto;
+margin-top:10px;
+}
+.unit-title-third{
+margin-top:10px;
+}
+.unit-title-fourth{
+margin-top:10px;
+}
+.unit-title:hover {
+  color:#b59f5b;
+  cursor: pointer;
+}
+.unit-links{
+display:flex;
+margin-right:110px;
+}
+.unit-links-second{
+margin-right:265px;
+}
+.unit-links-third{
+  margin-right:125px;
+}
+.unit-links-fourth{
+  margin-right:150px;
+}
+.unit-category:hover{
+  text-decoration: underline;
+  color:#b59f5b
+}
+.trend-unit::after {
+  content:'';
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+background-color:rgba(0, 0, 0, .6);
+ z-index: -1; 
+}
+.trend-unit-2{
+  background-image:url(../images/trend2.jpg);
+  width:400px;
+}
+.trend-unit-3{
+  background-image:url(../images/trend3.jpg);
+  width:400px;
+}
+.trend-unit-4{
+  background-image:url(../images/trend4.jpg);
+  width:400px;
+}
 .main {
   margin-right: 120px;
 }
-
 .main-page {
  display: flex;
  max-width: 1200px;
