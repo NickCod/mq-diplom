@@ -162,6 +162,7 @@ height: 163px;
   text-transform: uppercase;
   width:250px;
   margin-right:20px;
+  margin-top:10px;
 }
 .unit-title-second{
 width:auto;
@@ -172,6 +173,8 @@ margin-top:10px;
 }
 .unit-title-fourth{
 margin-top:10px;
+width:auto !important;
+margin-left:40px;
 }
 .unit-title:hover {
   color:#b59f5b;
