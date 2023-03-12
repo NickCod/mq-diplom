@@ -107,7 +107,6 @@ text-decoration: underline;
 .trend-items{
   display:flex;
   margin-top:28px;
-  justify-content: center;
 }
 .trend-unit{
   display:flex;
@@ -127,7 +126,7 @@ text-decoration: underline;
 }
 .trend-unit-1{
   background-image:url(../images/trend1.jpg);
-  width: 400px;
+  width: 25%;
   display:flex;
   justify-content:center;
   align-items:end;
@@ -214,15 +213,33 @@ background-color:rgba(0, 0, 0, .6);
 }
 .trend-unit-2{
   background-image:url(../images/trend2.jpg);
-  width:400px;
+  width:25%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .trend-unit-3{
   background-image:url(../images/trend3.jpg);
-  width:400px;
+  width:25%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .trend-unit-4{
   background-image:url(../images/trend4.jpg);
-  width:400px;
+  width:25%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .main {
   margin-right: 120px;
