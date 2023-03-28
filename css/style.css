@@ -459,7 +459,6 @@ width: 100%;
  border-style: none;
  background:#f4f7f6;
  font-size: 13px;
- outline: none;
  box-sizing: border-box;
   margin: auto;
   padding-left: 20px;
@@ -645,23 +644,29 @@ margin-right: 23px;
   height: 200px;
   width:300px;
   background-color:#eff6f1;
+  margin-bottom: -50px;
 }
 .product-img-banny{
   background-image:url(../images/shop-item-desk2.jpg); 
   height: 200px;
   width:300px;
   background-color: #eff6f1;
+  margin-bottom: -50px;
 }
 .product-img-frame{
   background-image:url(../images/shop-item-desk3.jpg); 
   height: 200px;
   width:300px;
   background-color: #eff6f1;
+  margin-bottom: -50px;
 }
 .product-info{
   margin-top:23px;
   border:3px solid #d3c59d;
-  padding:25px 25px 25px 25px;
+  padding:35px 15px 25px 22px;
+  height:250px;
+  width:350px;
+  margin-left:-25px;
 }
 .product-name{
   font-family: OpenSansB;
