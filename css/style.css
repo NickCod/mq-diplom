@@ -667,6 +667,10 @@ margin: 0 auto;
   min-height:247px;
   position: relative;
 }
+.product-descript {
+  display: flex;
+  flex-direction: column;
+}
 .product-name{
   font-family: OpenSansB;
   font-size: 20px;
@@ -675,6 +679,7 @@ margin: 0 auto;
 .product-text{
 font-family:OpenSans;
 font-size:15px;
+flex: 1 1 auto;
 }
 .product-text:hover{
   font-weight:bold;
