@@ -854,7 +854,8 @@ margin:0;
   padding: 0 35px 0 35px;
 }
 .main {
- width: calc(100% - 430px) 
+ width: calc(100% - 430px);
+ margin-right:35px;
 }
 .main-page {
   padding: 0 35px 0 35px;
