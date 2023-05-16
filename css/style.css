@@ -858,8 +858,8 @@ padding-bottom: 20px;
   .menu.js-menu {
     position: relative;
     width: 30px;
-    right: -200px;
-    top: -10px;
+    top: -200px;
+    left:30px;
   }
   .header-text {
     width:100%;
@@ -869,6 +869,7 @@ padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top:180px;
 }
   .header-menu {
     display: none;
@@ -893,7 +894,7 @@ padding-bottom: 20px;
   justify-content: space-between;
 }
 .trend-unit {
-  width: calc(100% - 3px);
+  width: 100%;
   margin: 3px 0 3px 0;
 }
 .products-items {
@@ -912,5 +913,6 @@ padding-bottom: 20px;
 }
 .aside {
   margin-top: 45px;
+  max-width: 100%;
 }
 }
