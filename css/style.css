@@ -75,8 +75,8 @@ text-decoration: underline;
   color:#ffffff;
   font-size: 45px;
   text-transform: uppercase;
-  padding-bottom: 146px;
-  padding-top: 194px;
+  padding-bottom: 145px;
+  padding-top: 125px;
   width: 670px;
   margin-left: auto;
   margin-right: auto;
@@ -263,6 +263,7 @@ background-color:rgba(0, 0, 0, .6);
   text-decoration: none;
   color:#b59f5b;
   font-weight:bold;
+  font-family: OpenSansB;
 }
 .news-tag-item-link:hover {
 text-decoration: underline;
@@ -843,9 +844,6 @@ padding-bottom: 20px;
 .news-name {
   margin-bottom: 40px;
 }
-.product-unit:nth-child(3) {
-  margin-top:28px;
-  }
   .footer {
     padding: 0 35px 0 35px;
   }
@@ -864,7 +862,7 @@ padding-bottom: 20px;
     top: -10px;
   }
   .header-text {
-    width:500px;
+    width:100%;
     padding-top:45px;
   }
   .header-nav {
@@ -884,6 +882,10 @@ padding-bottom: 20px;
   flex-direction: column;
   border-bottom: 3px solid #eeeeee;
   padding-bottom: 20px;
+}
+.news-img{
+  display: block;
+  width:100%;
 }
 .trend-items {
   display: flex;
